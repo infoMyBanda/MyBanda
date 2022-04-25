@@ -1,0 +1,27 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "cognome": {
+            "bsonType": "string"
+        },
+        "nome": {
+            "bsonType": "string"
+        },
+        "strumento": {
+            "bsonType": "string"
+        },
+        "telefono": {
+            "bsonType": "number"
+        }
+    },
+    "required": [
+        "_id",
+        "nome",
+        "cognome",
+        "strumento",
+        "telefono"
+    ],
+    "title": "car"
+}
