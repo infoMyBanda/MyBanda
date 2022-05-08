@@ -1,4 +1,4 @@
-exports = async function createNewUserDocument({user}) {
+exports = async function onCreaNuovoUtente({user}) {
   const cluster = context.services.get("mongodb-atlas");
   const users = cluster.db("MyBandaDB").collection("Utenti");
   return users.insertOne({
