@@ -1,10 +1,10 @@
 [
     {
-        "name": "onCreaNuovoUtente",
-        "private": true
-    },
-    {
         "name": "resetFunc",
         "private": false
+    },
+    {
+        "name": "onCreaNuovoUtente",
+        "private": true
     }
 ]

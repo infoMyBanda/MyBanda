@@ -6,6 +6,6 @@ exports = async function onCreaNuovoUtente({user}) {
     nome: user.data.nome,
     cognome: user.data.cognome,
     strumento: user.data.strumento,
-    telefono: user.data.telefono
+    telefono: user.data.email
   });
 };
