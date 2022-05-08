@@ -2,5 +2,10 @@
     {
         "name": "resetFunc",
         "private": false
+    },
+    {
+        "name": "onCreaNuovoUtente",
+        "private": false,
+        "disable_arg_logs": true
     }
 ]

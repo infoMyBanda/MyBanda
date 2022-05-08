@@ -1,0 +1,19 @@
+{
+    "id": "6277c5d230b9fcf72007017f",
+    "name": "CreaAccountTrigger",
+    "type": "AUTHENTICATION",
+    "config": {
+        "operation_type": "CREATE",
+        "providers": [
+            "local-userpass"
+        ]
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "onCreaNuovoUtente"
+            }
+        }
+    }
+}
