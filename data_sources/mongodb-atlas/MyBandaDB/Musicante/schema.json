@@ -19,7 +19,7 @@
             "bsonType": "string"
         },
         "telefono": {
-            "bsonType": "number"
+            "bsonType": "string"
         }
     },
     "required": [
