@@ -4,6 +4,8 @@ exports = async function onCreaNuovoUtente({user}) {
   return users.insertOne({
     _id: user.id,
     _partition: `user=${user.id}`,
-    email: user.data.email
+    email: user.data.email,
+    canReadPartitions: [`user=${user.id}`],
+    canWritePartitions: [`user=${user.id}`]
   });
 };
