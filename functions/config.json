@@ -14,7 +14,7 @@
         "private": true
     },
     {
-        "name": "onCreaMusicante",
+        "name": "onCreaNuovoUtente",
         "private": true
     },
     {

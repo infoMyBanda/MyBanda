@@ -1,6 +1,6 @@
 exports = async function(partitionValue) {
   const cluster = context.services.get("mongodb-atlas");
-  const userCollection = cluster.db("MyBanda").collection("Musicante");
+  const userCollection = cluster.db("MyBandaDB").collection("Musicante");
   try {
     const user = await userCollection.findOne({ _id: context.user.id });
     // If the user's canReadPartitions array contains the partition, they may read the partition
