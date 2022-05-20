@@ -25,11 +25,7 @@
     "required": [
         "_id",
         "_partition",
-        "email",
-        "nome",
-        "cognome",
-        "strumento",
-        "telefono"
+        "email"
     ],
     "title": "Musicante"
 }
