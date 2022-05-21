@@ -9,7 +9,7 @@ exports = async function onCreaNuovoUtente({user}) {
     canWritePartitions: [`user=${user.id}`],
     nome: "",
     cognome: "",
-    strumento: "",
-    telefono: ""
+    telefono: "",
+    strumento: ""
   });
 };

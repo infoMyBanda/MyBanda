@@ -1,6 +1,6 @@
 [
     {
-        "name": "onCreaNuovoUtente",
+        "name": "onModificaUtente",
         "private": true
     },
     {
@@ -18,7 +18,7 @@
         "run_as_system": true
     },
     {
-        "name": "onModificaUtente",
+        "name": "onCreaNuovoUtente",
         "private": true
     }
 ]
