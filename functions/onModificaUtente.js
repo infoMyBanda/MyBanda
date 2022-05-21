@@ -10,10 +10,10 @@ exports = async function(id, n, c, t, s) {
     return await collection.updateOne(
       {_id: uptUtente._id},
       {$addToSet: {
-          nome: n,
-          cognome: c,
-          telefono: t,
-          strumento: s
+          nome: n
+          //cognome: c,
+          //telefono: t,
+          //strumento: s
         }
       });
   } catch (error) {
