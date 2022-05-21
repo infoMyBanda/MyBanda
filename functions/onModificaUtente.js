@@ -9,7 +9,7 @@ exports = async function(id, n, c, t, s) {
   try {
     return await collection.updateOne(
       {_id: uptUtente._id},
-      {$set: {
+      { $set: {
           nome: n,
           cognome: c,
           telefono: t,
