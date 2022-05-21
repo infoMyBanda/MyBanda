@@ -16,5 +16,9 @@
         "name": "canWritePartition",
         "private": false,
         "run_as_system": true
+    },
+    {
+        "name": "onModificaUtente",
+        "private": true
     }
 ]
