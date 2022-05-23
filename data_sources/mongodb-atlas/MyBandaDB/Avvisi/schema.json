@@ -1,1 +1,31 @@
-{}
+{
+    "properties": {
+        "_id": {
+            "bsonType": "string"
+        },
+        "_partition": {
+            "bsonType": "string"
+        },
+        "data": {
+            "bsonType": "string"
+        },
+        "descrizione": {
+            "bsonType": "string"
+        },
+        "ora": {
+            "bsonType": "string"
+        },
+        "tipologia": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "_partition",
+        "tipologia",
+        "descrizione",
+        "data",
+        "ora"
+    ],
+    "title": "Avvisi"
+}
