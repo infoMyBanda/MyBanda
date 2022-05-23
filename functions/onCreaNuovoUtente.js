@@ -7,9 +7,9 @@ exports = async function onCreaNuovoUtente({user}) {
     email: user.data.email,
     canReadPartitions: [`user=${user.id}`],
     canWritePartitions: [`user=${user.id}`],
-    nome: "",
-    cognome: "",
-    telefono: "",
-    strumento: ""
+    nome: "def",
+    cognome: "def",
+    telefono: "def",
+    strumento: "def"
   });
 };

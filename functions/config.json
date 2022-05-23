@@ -1,9 +1,5 @@
 [
     {
-        "name": "resetFunc",
-        "private": false
-    },
-    {
         "name": "canReadPartition",
         "private": false,
         "run_as_system": true
@@ -19,6 +15,10 @@
     },
     {
         "name": "onModificaUtente",
+        "private": false
+    },
+    {
+        "name": "resetFunc",
         "private": false
     }
 ]
