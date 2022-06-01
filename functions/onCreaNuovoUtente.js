@@ -10,6 +10,6 @@ exports = async function onCreaNuovoUtente({user}) {
     nome: "def",
     cognome: "def",
     telefono: "def",
-    strumento: "sax"
+    strumento: "def"
   });
 };
